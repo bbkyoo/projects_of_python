@@ -1,0 +1,104 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>aa896c25-6b94-4720-a4fd-bcc73de691aa</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>GUI_project\6.advanced_screenshot.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Python_GUI</Name>
+    <RootNamespace>Python_GUI</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GUI_Basic\1.create_frame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\10.menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\11.messagebox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\12.frame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\13.scrollbar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\14.grid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\15.quiz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\2.button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\3.lable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\4.text_entry.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\5.listbox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\6.checkbox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\7.radiobutton.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\8.combobox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Basic\9.progressbar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\1.create_layout.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\2.basic_function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\3.auto_screenshot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\4.merge_images.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\5.apply_option.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_project\6.advanced_screenshot.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GUI_Basic\" />
+    <Folder Include="GUI_project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GUI_Basic\img.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
