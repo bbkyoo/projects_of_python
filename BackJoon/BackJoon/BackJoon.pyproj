@@ -1,0 +1,368 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>variable\타일 채우기.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>BackJoon</Name>
+    <RootNamespace>BackJoon</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="01\01_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_08.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="01\01_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\N_Queen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\N_과_M_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\N과M_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\N과M_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\N과M_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\스타트와링크.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="backtracking\연산자_끼워넣기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\01타일.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="07\07_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="07\07_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_05%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_06%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_08.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08\08_10%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_02%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_03%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_04%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09\09_08%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_04%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_08.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\10_10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11\11_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11\11_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11\11_03%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11\11_04%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12\12_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12\12_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12\12_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12\12_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12\12_05_다시.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_04_correct.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_08.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13\13_09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\FBI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\R2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\검증수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\나는요리사다.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\나머지와몫이같은수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\가장 많은 글자_%28입력%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\공.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\나무조각.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\대소문자바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\도비의영어공부.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\막대기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\문어숫자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\사파리월드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\시그마.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\오르막길%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\유학금지.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\윷놀이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\일곱난쟁이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\점수계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\주사위게임.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\주사위네개.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\찍기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\체스판조각.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\최댓값.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\학점계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\홀수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\모음의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\새.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\추론.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="easy\팰린드롬수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\1로만들기_다시.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\2xn타일링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\2xn타일링2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\RGB거리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\가장긴증가하는부분수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\계단오르기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\쉬운계단수%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\전깃줄.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\정수삼각형.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\타일 채우기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\파도반수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\포도주시식%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\피보나치수열2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\피보나치수열_오.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variable\피보나치수열_정.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01\" />
+    <Folder Include="easy\" />
+    <Folder Include="07\" />
+    <Folder Include="08\" />
+    <Folder Include="09\" />
+    <Folder Include="10\" />
+    <Folder Include="11\" />
+    <Folder Include="12\" />
+    <Folder Include="13\" />
+    <Folder Include="backtracking\" />
+    <Folder Include="variable\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
