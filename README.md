@@ -39,7 +39,12 @@
 - requests
 - re
 
+### 주요 기능
+- 특정 웹 페이지 스크랩핑 
 
+### 결과
+
+![2](https://user-images.githubusercontent.com/66678112/114009286-f86b4880-989d-11eb-86d8-f2f199f26f99.png)
 
 
 
