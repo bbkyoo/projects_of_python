@@ -18,7 +18,7 @@
 
 ## Python_game
 
-## 사용 기술 스택
+### 사용 기술 스택
 - Python
 - Pygame
 
@@ -30,4 +30,18 @@
 ### 결과
 
 ![1](https://user-images.githubusercontent.com/66678112/113999728-43349280-9895-11eb-8c2c-d18ca94fd035.png)
+
+## web_scraping
+
+### 사용 기술 스택
+- Python
+- BeautifulSoup
+- requests
+- re
+
+
+
+
+
+
 
