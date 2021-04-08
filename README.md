@@ -27,5 +27,7 @@
 - 모든 공을 없애면 종료
 - 시간초가 다 되면 종료
 
+### 결과
 
+![1](https://user-images.githubusercontent.com/66678112/113999728-43349280-9895-11eb-8c2c-d18ca94fd035.png)
 
