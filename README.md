@@ -16,3 +16,16 @@
 ### 결과
 ![nado_photo](https://user-images.githubusercontent.com/66678112/113998734-4f6c2000-9894-11eb-8a29-79ad4298fffa.png)
 
+## Python_game
+
+## 사용 기술 스택
+- Python
+- Pygame
+
+### 주요 기능
+- 캐릭터가 공에 닿으면 종료
+- 모든 공을 없애면 종료
+- 시간초가 다 되면 종료
+
+
+
